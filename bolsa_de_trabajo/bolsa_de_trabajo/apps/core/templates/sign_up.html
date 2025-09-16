@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block extra_css %}
+<style>
+    .login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    
+    .login label{
+        display: grid;
+        grid-template-columns: 100px 1fr;
+    }
+
+    .login form{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        row-gap: 10px;
+    }
+
+    .login div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<main class="login">
+    <h1>Registrarse</h1>
+
+    <form action="">
+        <label for="">
+            Nombre <input type="text" name="" id="">
+        </label>
+        
+        <label for="">
+            Correo <input type="email" name="" id="">
+        </label>
+
+        <label for="">
+            Contraseña <input type="password" name="" id="">
+        </label>
+
+        <div>
+            <button type="submit">Confirmar</button>
+            <button type="reset">Cancelar</button>
+        </div>
+    </form>
+</main>
+{% endblock %}
