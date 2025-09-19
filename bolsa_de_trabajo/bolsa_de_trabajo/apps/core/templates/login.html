@@ -54,6 +54,10 @@
             <button type="reset">Cancelar</button>
         </div>
 
+        {% if correo and contrasena %}
+            <p>correo: {{correo}} </p>
+            <p>contraseña: {{contrasena}} </p>
+        {% endif %}
     </form>
 </main>
 {% endblock %}
