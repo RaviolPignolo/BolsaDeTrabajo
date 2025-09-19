@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 
 {% block title %} Login {% endblock %}
 
@@ -36,21 +36,30 @@
 
 {% block content %}
 <main class="login">
-    <h1>Inicicar Sesion</h1>
+    <h1>Iniciar Sesion</h1>
 
-    <form action="">
-        <label for="">
-            Correo <input type="email" name="" id="">
+    <form method="post">
+        {% csrf_token %}
+        
+        <label for="correo">
+            Correo <input type="email" name="correo" id="correo">
         </label>
 
-        <label for="">
-            Contraseña <input type="password" name="" id="">
+        <label for="contrasena">
+            Contraseña <input type="password" name="contrasena" id="contrasena">
         </label>
 
         <div>
             <button type="submit">Confirmar</button>
             <button type="reset">Cancelar</button>
         </div>
+
     </form>
 </main>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    
+</script>
 {% endblock %}
