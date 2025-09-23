@@ -1,8 +1,9 @@
 # BolsaDeTrabajo
 ### Proyecto para la materia Programación Web 2 de la Universidad de Chubut
-![UDC](https://img.shields.io/badge/Universidad%20del%20Chubut-Académico-5A7C92?logo=university&logoColor=white)
 
-![Website](https://img.shields.io/badge/Project-Type:--Web--App-informational)
+![UDC](https://img.shields.io/badge/Académico-Universidad%20del%20Chubut-5A7C92?logo=university&logoColor=white)
+
+![Website](https://img.shields.io/badge/ProjectType:Web-App-informational)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Django](https://img.shields.io/badge/Django-5.2.6-green)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-blue?logo=sqlite)
@@ -41,3 +42,9 @@ Link del Figma de la página: [Bolsa de Trabajo Figma](https://www.figma.com/des
 ```
 
 - Acceder al link desde el navegador. Normalmente el link otorgado es: http://127.0.0.1:8000/
+
+## Participantes
+### Leandro Pérez Pignolo
+### Leonardo Daniel Nina
+### Gabriel Campos Kray
+### Santiago Gabriel Cañumir Palleres
