@@ -43,8 +43,10 @@ Link del Figma de la página: [Bolsa de Trabajo Figma](https://www.figma.com/des
 
 - Acceder al link desde el navegador. Normalmente el link otorgado es: http://127.0.0.1:8000/
 
+- De encontrar un error 404 agregar la siguiente dirección: /core/home. http://127.0.0.1:8000/core/home
+
 ## Participantes
-### Leandro Pérez Pignolo
-### Leonardo Daniel Nina
-### Gabriel Campos Kray
-### Santiago Gabriel Cañumir Palleres
+- Leandro Pérez Pignolo
+- Leonardo Daniel Nina
+- Gabriel Campos Kray
+- Santiago Gabriel Cañumir Palleres
